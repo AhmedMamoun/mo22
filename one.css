@@ -1,0 +1,174 @@
+* { 
+    padding: 0;
+    margin: 0;
+    color: white;
+
+
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #aaaaaa98;
+    display: flex;
+}
+
+/* start menu */
+.img img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.profile h2 {
+    font-size: 17px;
+ text-transform: capitalize;
+
+}
+.menu {
+    background-color: #11003a;
+    width: 53.5px;
+    height: 200vh;
+    padding: 20px;
+    transition: .5s;
+    overflow: hidden;
+}
+.menu:hover{
+    width: 260px;
+}
+ul {
+    list-style: none;
+    position: relative;
+    height: 100%;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 8px 0;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    gap: 40px;
+    transition: .5s;
+    font-size: 15px;
+}
+
+ul li a:hover , .active {
+    background-color: #686464b4;
+}
+ .logout {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    gap: 80px;
+    right: 0;
+ 
+}
+ul li i {
+    font-size: 25px;
+}
+/* end menu */
+
+.content {
+    width: 100%;
+    margin: 10px;
+
+}
+.title {
+    padding: 10px;
+    background-color: #11003a;
+border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+
+}
+
+.title span{
+    color: red;
+}
+
+.title i{
+    font-size: 25px;
+}
+
+
+
+.data-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.data-info .box {
+    background-color:  #8a0e0e;
+    height: 150px;
+    flex-basis: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1    ;
+    border-radius: 8px;
+transition: .5s;
+}
+
+
+
+.data-info .box:hover {
+    background-color:#686464b4;
+}
+
+
+.data-info .box i {
+    font-size: 50px;
+}
+
+.data-info .data {
+    text-align: center;
+
+}
+
+.data-info .data span {
+    font-size: 30px;
+}
+
+.data-info p {
+    font-size: 30px;
+}
+
+/* end */
+
+
+table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 10px;
+
+}
+
+
+td, th {
+    background-color: #8a0e0e;
+    height: 80px;
+    border-radius: 8px;
+    font-size: 25PX;
+}
+
+
+
+ tbody :hover {
+background-color: #686464b4;
+}
+
+thead th {
+    background-color: #000000c5;
+}
